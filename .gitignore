@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+
+# Compiled binary addons (e.g., node-sass)
+/build/
+
+# Dependency directories
+/vendor/
+
+# Debug files
+.DS_Store
+*.log
+
+# Environment variables file
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
