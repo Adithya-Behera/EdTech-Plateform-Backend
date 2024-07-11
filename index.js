@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:"https://668fe4a7b7add600854acee6--edtech-academy.netlify.app",
 		credentials:true,
 	})
 )
