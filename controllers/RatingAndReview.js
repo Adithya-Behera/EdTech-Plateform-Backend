@@ -1,4 +1,4 @@
-const RatingAndReview = require("../models/RatingAndRaview");
+const RatingAndReview = require("../models/RatingAndReview");
 const Course = require("../models/Course");
 const { mongo, default: mongoose } = require("mongoose");
 
@@ -7,10 +7,12 @@ exports.createRating = async (req, res) => {
     try{
 
         //get user id
+        console.log(req.body);
         const userId = req.user.id;
         //fetchdata from req body
         const {rating, review, courseId} = req.body;
         //check if user is enrolled or not
+        console.log("courseId :", courseId);
         const courseDetails = await Course.findOne(
                                     {_id:courseId,
                                     studentsEnrolled: {$elemMatch: {$eq: userId} },
