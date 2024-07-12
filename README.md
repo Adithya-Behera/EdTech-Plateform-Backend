@@ -1,3 +1,6 @@
+### Website-link : https://668fe4a7b7add600854acee6--edtech-academy.netlify.app
+login as student :email :elonfavsid@gmail.com  password :test123
+login as instructor :email :johntesttemp333@gmail.com  password :test123
 
 ## Project Description
 
@@ -59,14 +62,6 @@ The database for the platform is built using MongoDB, which is a NoSQL database 
 provides a flexible and scalable data storage solution. MongoDB allows for the storage of
 unstructured and semi-structured data. The database stores the course content, user data, and other
 relevant information related to the platform.
-
-
-### Architecture Diagram
-
-Here is a high-level diagram that illustrates the architecture of the Edtech-Academy ed-tech
-platform:
-
-![Architecture](images/architecture.png)
 
 ## Front End
 
