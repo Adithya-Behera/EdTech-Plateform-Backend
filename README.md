@@ -1,4 +1,4 @@
-### Website-link : https://668fe4a7b7add600854acee6--edtech-academy.netlify.app
+### Website-link : https://edtech-academy.netlify.app
 login as student :email :elonfavsid@gmail.com             password :test123
 
 login as instructor :email :johntesttemp333@gmail.com     password :test123
